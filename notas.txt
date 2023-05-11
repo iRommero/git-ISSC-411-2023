@@ -4,3 +4,5 @@ Comandos:
 - Add/Stage files: git add <file_name> or git add .
 - Commit: git commit -m "<commit message>"
 - Push: git push
+- Fetch: git fetch
+- Pull: git pull
