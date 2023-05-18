@@ -13,3 +13,14 @@ Es recomendable subir commits de manera frecuente (15 - 20) minutos, para evitar
 Ramas:
 Las ramas nos permiten agregar commits de una manera segura sin alterar directamente la rama principal (main).
 - Crear rama: git branch <branch_name>
+
+Integracion de ramas:
+Usamos un merge para "mezclar" dos ramas. 1 sola realiza los cambios
+Es recomendable borrar las ramas que ya no utilizamos.
+
+Estrategias para resolicion de conflictos:
+1. Merge commit: integramos cambios y resolvemos conflictos en una sola operacion
+2. Rebase: cambiamos el commit de origen de nuestra rama y resolvemos conflictos. Posteriormente hacemos un merge sin conflictos.
+
+Pull Request (PR):
+Un pull request nos permite integrar cambios de una rama a otra, con el beneficio de que alguien mas pueda ayudar a revisar los cambios antes de su Integracion.
